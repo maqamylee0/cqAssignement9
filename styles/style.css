@@ -1,0 +1,25 @@
+.container {
+    padding: 30px;
+    display: grid;
+    margin: 200px;
+}
+
+.images {
+    height: 400px;
+    width: 600px;
+    grid-column: 2 / span 1;
+}
+
+.heading {
+    font-size: x-large;
+    grid-column: 1 / span 1;
+    color: olivedrab;
+    background-color: aquamarine;
+}
+
+.paragraph {
+    grid-column: 2 / span 1;
+    padding: 30px;
+    font-size: x-large;
+    background-color: aquamarine;
+}
